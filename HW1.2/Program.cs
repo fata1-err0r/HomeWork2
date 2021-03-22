@@ -36,7 +36,7 @@ namespace HW1._2
 			}
 			else
 			{
-				Console.WriteLine("matrix is't symmetric ");
+				Console.WriteLine("matrix is not symmetric ");
 			}
 			Console.ReadKey();
 		}
