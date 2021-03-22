@@ -19,6 +19,25 @@ namespace HW1._2
 				}
 				Console.WriteLine();
 			}
+			int symmetry = 1; // переменная для проверки симметричности
+			int matrixRow = 1; // переменная для оптимизации проверки, чтобы не сравнить диагональ и дважды
+			for (int i = 0; i < mas.GetLength(0); i++)
+			{
+				for (int j = matrixRow; j < mas.GetLength(1); j++)
+				{
+					int check = mas[i, j] - mas[j, i];
+					if (check != 0) symmetry = 0;
+				}
+				matrixRow++;
+			}
+			if (symmetry == 1)
+			{
+				Console.WriteLine("matrix is symmetric ");
+			}
+			else
+			{
+				Console.WriteLine("matrix is't symmetric ");
+			}
 			Console.ReadKey();
 		}
 	}

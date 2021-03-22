@@ -7,7 +7,7 @@ namespace HW1._1
 		static void Main(string[] args)
 		{
 			int[] nums = new int[] { 3, 6, 9, 12, 15 }; // целочисленный упорядоченный по возрастанию массив
-			int count = 1; // подсчет
+			int count = 1; // подсчет уникальных цифр
 
 			for (int a = 0; a < nums.Length - 1; a++)
 			{
