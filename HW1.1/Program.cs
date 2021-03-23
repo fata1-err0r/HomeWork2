@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW1._1
+namespace HW1._1		// сложность алгоритма - Линейный O(n)
 {
 	class Program
 	{

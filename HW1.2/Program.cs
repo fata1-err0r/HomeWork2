@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW1._2
+namespace HW1._2            // сложность алгоритма - Логарифмический - O(log n)
 {
 	class Program
 	{
@@ -19,8 +19,8 @@ namespace HW1._2
 				}
 				Console.WriteLine();
 			}
-			int symmetry = 1; // переменная для проверки симметричности
-			int matrixRow = 1; // переменная для оптимизации проверки, чтобы не сравнить диагональ и дважды
+			int symmetry = 1; // проверка симметричности
+			int matrixRow = 1; // оптимизация проверки, чтобы не сравнить диагональ дважды
 			for (int i = 0; i < mas.GetLength(0); i++)
 			{
 				for (int j = matrixRow; j < mas.GetLength(1); j++)
