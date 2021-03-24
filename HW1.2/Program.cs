@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW1._2            // сложность алгоритма - Логарифмический - O(log n)
+namespace HW1._2            // сложность алгоритма - Квадратичный - O(n2)
 {
 	class Program
 	{
